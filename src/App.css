@@ -21,7 +21,7 @@ body {
   text-align: center;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
-  padding: 32px 0;
+  padding: 15px 0;
 }
 
 .zaglushka_content {
@@ -46,11 +46,19 @@ body {
   display: none;
 }
 
-@media screen and (max-width: 1200px) {
-
-  body {
-    height: 100vh;
+@media screen and (max-width: 1650px) {
+  .zaglushka_middle_image1 {
+    height: 150px;
+    width: auto;
   }
+
+  .pacan {
+    height: 450px;
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 1200px) {
 
   .zaglushka_content {
   }
