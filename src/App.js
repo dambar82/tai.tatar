@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className={`zaglushka_header`}>
+          Сайт әлегә эшләнә.
+      </div>
+      <div className={`zaglushka_content`}>
+          <div className={`zaglushka_image1`}>
+              <img src="/tataraltari.png" alt=""/>
+              <img src="/Asset 3 1.png" className={`second_img`} alt=""/>
+          </div>
+          <div className={`zaglushka_middle`}>
+              <img src="/Asset%201@4x%201.png" className={`zaglushka_middle_image1`} alt=""/>
+              <img className={`pacan`} src="/Asset 4@4x 1.png" alt=""/>
+          </div>
+          <div className={`zaglushka_image2`}>
+              <img src="/Asset 3 1.png" alt=""/>
+          </div>
+      </div>
     </div>
   );
 }
